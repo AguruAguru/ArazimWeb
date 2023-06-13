@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href='/staticFiles/main.css' />
+  </head>
+  <body>
+    <h1>Upload</h1>
+
+    <form method="POST" action="" enctype="multipart/form-data">
+      <p><input type="file" name="file" accept=".jpg"></p>
+      <p><input type="submit" name="submit" value="Submit"></p>
+    </form>
+  <br>
+
+    <img src="{{ feed[0] }}" alt="User Image" title="{{ users[0] }}">
+    <img src="{{ feed[1] }}" alt="User Image" title="{{ users[1] }}">
+    <img src="{{ feed[2] }}" alt="User Image" title="{{ users[2] }}">
+    <img src="{{ feed[3] }}" alt="User Image" title="{{ users[3] }}">
+
+  </body>
+</html>
